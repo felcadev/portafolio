@@ -1,0 +1,36 @@
+header.head {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(54, 54, 53, 0.8) 0%, rgba(19, 14, 10, 0.8) 100%), url("../img/bg-index.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header.head h1, header.head .h1 {
+    font-size: 2.25rem;
+  }
+  @media (min-width: 992px) {
+    header.head {
+      height: 100vh;
+      min-height: 40rem;
+      padding-top: 4.5rem;
+      padding-bottom: 0;
+    }
+    header.head p {
+      font-size: 1.15rem;
+    }
+    header.head h1, header.head .h1 {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    header.head h1, header.head .h1 {
+      font-size: 3.5rem;
+    }
+  }
+
+.head-img{
+    border-radius: 100px;
+}
