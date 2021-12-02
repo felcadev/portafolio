@@ -1,14 +1,14 @@
 {
-  "name": "3-entrega-proyecto-final",
-  "version": "1.0.0",
-  "description": "",
+  "name": "portafolio-caceresfelipe",
+  "version": "1.0.1",
+  "description": "Proyecto para el curso de desarrollo web de coderhouse",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/stylecss.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "felcadev",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.1.3",
